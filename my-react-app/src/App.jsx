@@ -7,30 +7,19 @@ import Demo from './Components/Demo'
 
 function App() {
 
+  function callfun(){
+            alert("Function Call");
+        }
+
   return (
     <div>
-      <h1>Hello! My name is Nikhil</h1>
-      <Employee></Employee>
-      <Test></Test>
-      <Demo></Demo>
+      <h1>Welcome to New Project</h1>
+      <button onClick={callfun}>OK</button>
       
 
     </div>
   )
 }
-
-function Employee(){
-  return(
-    <h1>Nikhil Barua</h1>
-  )
-}
-
-function Test(){
-  return(
-    <h1>Hello This is second component</h1>
-  )
-}
-
 
 
 
