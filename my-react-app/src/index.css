@@ -56,6 +56,10 @@ button:focus-visible {
 #d1{
   background-color: rgba(181, 76, 76, 0.653);
 }
+button{
+  color:red
+  
+}
 
 @media (prefers-color-scheme: light) {
   :root {
